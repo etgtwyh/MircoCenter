@@ -1,0 +1,16 @@
+syntax="proto3";
+
+option go_package="..;ServiceManage";
+
+service ServiceManage {
+//  服务发现  获取最佳节点地址
+  rpc RecoverService(ServicePrefix) returns (ServiceHost);
+}
+
+message ServicePrefix{
+  string ServicePrefix =1;
+}
+
+message ServiceHost {
+  string ServiceHost =1;
+}

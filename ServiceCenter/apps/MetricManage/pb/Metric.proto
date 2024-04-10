@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package="../;MetricManage";
+
+// 定义服务
+service MetricsService {
+  // 客户端流模式的RPC方法
+  rpc ReportMetrics(stream MetricsData) returns (ReportResponse) {}
+}
+
+// 定义传输的性能数据结构
+message MetricsData {
+  repeated double cpuUsage = 1; // CPU使用率，百分比
+  double memoryUsage = 2; // 内存使用率，百分比
+  int64 icmpDelay = 3; // ICMP延迟，毫秒
+  int64 timeStamp = 4;  //时间戳
+  string ServiceName = 5; //服务前缀
+  string ServiceHost = 6; //服务地址和端口
+  string IsPriority = 7; //是否优先
+  string ProjectName = 8; //项目名
+  int64 LeaseId = 9; // etcd租约id
+}
+
+// 定义响应结构
+message ReportResponse {
+  bool success = 1; // 上报是否成功
+  string message = 2; // 服务端返回的消息，例如错误信息
+}
