@@ -1,0 +1,16 @@
+[MongoDB]
+username = "root"
+password = "root"
+ipaddr = "mongo"
+port = "27017"
+
+[Etcd]
+endpoints = ["etcd:2379"]
+
+[MetricManageSvc]
+ipaddr = "127.0.0.1"
+port = "30001"
+
+[Redis]
+ipaddr = "redis"
+port = "6379"

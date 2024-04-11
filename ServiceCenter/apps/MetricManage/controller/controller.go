@@ -2,10 +2,10 @@ package controller
 
 import (
 	"errors"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/MetricManage"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/conf"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/ioc"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/utils/Log"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps/MetricManage"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/conf"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/ioc"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/utils/Log"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.mongodb.org/mongo-driver/mongo"
 )

@@ -3,7 +3,7 @@ package MetricMonitor
 import (
 	"context"
 	"fmt"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/MetricManage"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps/MetricManage"
 	"github.com/go-ping/ping"
 	"github.com/shirou/gopsutil/v3/cpu"
 	"github.com/shirou/gopsutil/v3/mem"

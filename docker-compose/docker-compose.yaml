@@ -1,0 +1,68 @@
+version: "3.7"
+
+services:
+  etcd:
+    image: "bitnami/etcd"
+    container_name: "etcd"
+    restart: always
+    ports:
+      - "2379:2379"
+    environment:
+      - TZ=Asia/Shanghai
+      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_ADVERTISE_CLIENT_URLS=http://etcd:2379
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - "27017:27017"
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    restart: always
+    ports:
+      - "6379:6379"
+
+  servicecenter:
+    image: registry.cn-hangzhou.aliyuncs.com/yuzhong/servicecenter:latest
+    container_name: servicecenter
+    restart: always
+    ports:
+      - "30001:30001"
+    depends_on:
+      - etcd
+      - mongo
+      - redis
+    environment:
+      TZ: Asia/Shanghai
+      PROJECT_ROOT: /app
+    volumes:
+      - type: bind
+        source: ./etc
+        target: /app/etc
+  
+  mircocenter:
+    image: registry.cn-hangzhou.aliyuncs.com/yuzhong/mircocenter:latest
+    container_name: mircocenter
+    depends_on:
+      - servicecenter
+    ports:
+      - "80:80"
+    environment:
+      TZ: Asia/Shanghai
+    volumes:
+      - type: bind
+        source: ./default.conf
+        target: /etc/nginx/conf.d/default.conf
+
+
+ 
+
+

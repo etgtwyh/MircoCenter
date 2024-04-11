@@ -3,7 +3,7 @@ package conf
 import (
 	"context"
 	"fmt"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/utils/Log"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/utils/Log"
 	"github.com/BurntSushi/toml"
 	"github.com/redis/go-redis/v9"
 	clientv3 "go.etcd.io/etcd/client/v3"

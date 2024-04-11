@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/MetricManage"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/ServiceManage"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/package/ServiceUtils"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps/MetricManage"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps/ServiceManage"
+
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/naming/endpoints"
 	"go.mongodb.org/mongo-driver/bson"
@@ -332,7 +332,12 @@ func (s *ServiceManageImpl) FetchServiceMetricsForLastDay(ctx context.Context, s
 
 func (s *ServiceManageImpl) FetchServiceStatus(ctx context.Context, service *ServiceManage.Service) (*ServiceManage.IsPriority, error) {
 	//定义实例用于接受数据
-	var etcdValue ServiceUtils.EtcdValue
+	type EtcdValue struct {
+		Op       int                       `json:"Op"`
+		Addr     string                    `json:"Addr"`
+		Metadata *MetricManage.MetricsData `json:"Metadata"`
+	}
+	var etcdValue EtcdValue
 	resp, err := s.etcdClient.Get(ctx, fmt.Sprintf("root/%s/%s/%s", service.ProjectName, service.ServiceName, service.ServiceHost))
 	if err != nil {
 		return nil, err

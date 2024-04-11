@@ -1,14 +1,14 @@
 [RedisConf]
-ipaddr="192.168.221.135"
+ipaddr="127.0.0.1"
 port="6379"
 
 [MongoConf]
 username="root"
 password="root"
-ipaddr="192.168.221.135"
+ipaddr="127.0.0.1"
 port="27017"
 
 [MetricManageSvc]
-endpoints=["192.168.221.135:2379"] # etcd的endpoint
+endpoints=["127.0.0.1:2379"] # etcd的endpoint
 ipaddr="127.0.0.1"
 port="30001"

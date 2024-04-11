@@ -2,10 +2,10 @@ package test
 
 import (
 	"context"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/MetricManage"
-	_ "gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/MetricManage/controller"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/ServiceManage"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/ioc"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps/MetricManage"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps/ServiceManage"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/ioc"
+
 	"testing"
 )
 

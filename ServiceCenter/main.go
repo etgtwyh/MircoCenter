@@ -1,9 +1,9 @@
 package main
 
 import (
-	_ "gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/ioc"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/middlewares/http"
+	_ "gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/ioc"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/middlewares/http"
 	"github.com/gin-gonic/gin"
 )
 

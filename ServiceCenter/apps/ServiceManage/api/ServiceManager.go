@@ -1,10 +1,10 @@
 package api
 
 import (
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/ServiceManage"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/execption"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/reponse"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/utils/Log"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps/ServiceManage"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/execption"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/reponse"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/utils/Log"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

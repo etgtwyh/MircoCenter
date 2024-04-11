@@ -1,4 +1,4 @@
-module gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter
+module gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter
 
 go 1.20
 
@@ -13,7 +13,7 @@ require (
 	github.com/shirou/gopsutil/v3 v3.24.3
 	go.etcd.io/etcd/client/v3 v3.5.13
 	go.mongodb.org/mongo-driver v1.14.0
-	google.golang.org/grpc v1.63.0
+	google.golang.org/grpc v1.63.2
 	google.golang.org/protobuf v1.33.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )

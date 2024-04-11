@@ -1,8 +1,8 @@
 package api
 
 import (
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/apps/ServiceManage"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/ioc"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/apps/ServiceManage"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/ioc"
 	"github.com/gin-gonic/gin"
 )
 

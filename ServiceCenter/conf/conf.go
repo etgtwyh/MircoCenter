@@ -3,7 +3,7 @@ package conf
 import (
 	"encoding/json"
 	"errors"
-	"gitee.com/King_of_Universe_Sailing/wcenter/ServiceCenter/ioc"
+	"gitee.com/King_of_Universe_Sailing/MircoCenter/ServiceCenter/ioc"
 	"github.com/redis/go-redis/v9"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.mongodb.org/mongo-driver/mongo"

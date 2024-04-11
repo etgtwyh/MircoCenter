@@ -1,0 +1,84 @@
+{"level":"info","time":"2024-04-10 19:58:12","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 19:58:12","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 19:58:12","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 19:58:12","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 19:58:12","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 19:58:12","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 20:13:38","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 20:13:38","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 20:13:38","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 20:13:38","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 20:13:38","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 20:13:38","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 20:19:06","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 20:19:06","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 20:19:06","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 20:19:06","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 20:19:06","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 20:19:06","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 20:19:25","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 20:19:25","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 20:19:25","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 20:19:25","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 20:19:25","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 20:19:25","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 20:21:44","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 20:21:44","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 20:21:44","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 20:21:44","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 20:21:44","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 20:21:44","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 20:39:16","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 20:39:16","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 20:39:16","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 20:39:16","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 20:39:16","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 20:39:16","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 12:56:34","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 12:56:34","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 12:56:34","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 12:56:34","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 12:56:34","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 12:56:34","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 12:58:56","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 12:58:56","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 12:58:56","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 12:58:56","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 12:58:56","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 12:58:56","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 13:13:39","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 13:13:39","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 13:13:39","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 13:13:39","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 13:13:39","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 13:13:39","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 13:16:20","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 13:16:20","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 13:16:20","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 13:16:20","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 13:16:20","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 13:16:20","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 13:53:36","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 13:53:36","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 13:53:36","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 13:53:36","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 13:53:36","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 13:53:36","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 14:02:56","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 14:02:56","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 14:02:56","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 14:02:56","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 14:02:56","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 14:02:56","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-10 14:07:50","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-10 14:07:50","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-10 14:07:50","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-10 14:07:50","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-10 14:07:50","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-10 14:07:50","message":"Api容器正在给ServiceManageApi注入依赖"}
+{"level":"info","time":"2024-04-11 07:15:39","message":"Api容器正在给ServiceManageApi注入api依赖"}
+{"level":"info","time":"2024-04-11 07:15:39","message":"IOC Initializing(正在依赖注入)"}
+{"level":"info","time":"2024-04-11 07:15:39","message":"Conf容器正在给Conf注入依赖"}
+{"level":"info","time":"2024-04-11 07:15:39","message":"Controller容器正在给MetricManager注入依赖"}
+{"level":"info","time":"2024-04-11 07:15:39","message":"Controller容器正在给ServiceManage注入依赖"}
+{"level":"info","time":"2024-04-11 07:15:39","message":"Api容器正在给ServiceManageApi注入依赖"}
